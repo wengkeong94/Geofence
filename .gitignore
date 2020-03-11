@@ -1,0 +1,88 @@
+# Xcode
+build/*
+src/CX/Platform/build/*
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!Grab.xcworkspace
+!default.xcworkspace
+xcuserdata
+*.moved-aside
+*.log
+build-time.csv
+Index/*
+
+# Mac OS
+.DS_Store
+DerivedData.temp/
+DerivedData/
+
+# CocoaPods
+Pods/*
+Podfile.lock
+
+# AppCode
+.idea/*
+release_note.txt
+
+# fastlane
+.fastlane/Appfile
+.fastlane/Deliverfile
+.fastlane/report.xml
+.fastlane/metadata/*
+.fastlane/screenshots/*
+CoreLocation.gcno
+ObjectiveC.gcno
+*.gcda
+
+# mobile-ci-prod
+mobile-ci-prod/
+
+# Iris
+Scripts/irisbot2/Packages/*
+Scripts/irisbot2/.build/*
+
+# Developer
+Dev/*
+*/FailureDiffs/*
+*/*/FailureDiffs/*
+.com.grab.util.*
+
+# Buck
+buck-out/*
+.buckd/*
+
+#GBMock
+/generated/*
+/mock
+
+# CI Folders
+.bundle/
+bin/
+
+prebuild.log
+artifacts/*
+Tools/Localizations/*
+Tools/Localisation Strings - iOS Passenger App - General.csv
+Tools/LocalizableAutoUpdate
+package-lock.json
+
+*swiftUserDefaults.plist
+
+fastlane/report.xml
+
+# Python Related
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+MergeCache/
+MergedPods/
+vendor/bundle/
